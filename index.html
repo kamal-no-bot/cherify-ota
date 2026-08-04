@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Install Cherify</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: linear-gradient(180deg, #1a0a14 0%, #2d0f1f 100%);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+  }
+  .icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #e0356b 0%, #ff6b9d 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin: 0 auto 20px;
+    box-shadow: 0 8px 32px rgba(224, 53, 107, 0.4);
+  }
+  h1 { font-size: 28px; margin-bottom: 6px; }
+  .version { color: rgba(255,255,255,0.55); font-size: 15px; margin-bottom: 32px; }
+  .install-btn {
+    display: block;
+    background: linear-gradient(135deg, #e0356b 0%, #ff5c8f 100%);
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border-radius: 14px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 20px rgba(224, 53, 107, 0.35);
+  }
+  .install-btn:active { opacity: 0.8; }
+  .steps {
+    text-align: left;
+    background: rgba(255,255,255,0.06);
+    border-radius: 14px;
+    padding: 18px 20px;
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: rgba(255,255,255,0.8);
+  }
+  .steps strong { color: #fff; }
+  .steps ol { padding-left: 18px; }
+  .steps li { margin-bottom: 8px; }
+  .steps li:last-child { margin-bottom: 0; }
+  .note {
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.45);
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">🍒</div>
+    <h1>Cherify</h1>
+    <div class="version">Version 1.1.1 (Build 1) &middot; 69 MB</div>
+    <a class="install-btn" href="itms-services://?action=download-manifest&amp;url=https://kamal-no-bot.github.io/cherify-ota/manifest.plist">Install Cherify</a>
+    <div class="steps">
+      <strong>How to install</strong>
+      <ol>
+        <li>Open this page in <strong>Safari</strong> (it will not work from inside other apps or browsers).</li>
+        <li>Tap <strong>Install Cherify</strong> above, then tap <strong>Install</strong> on the popup.</li>
+        <li>Close Safari and check your home screen. The app icon appears and downloads in the background (1 to 2 minutes).</li>
+      </ol>
+    </div>
+    <div class="note">
+      If the app does not open and you see "Untrusted Developer": go to Settings &gt; General &gt; VPN &amp; Device Management, tap "cherify llc" and tap Trust.<br><br>
+      This build only installs on devices registered with Cherify. If installation fails, contact us so we can register your device.
+    </div>
+  </div>
+</body>
+</html>
